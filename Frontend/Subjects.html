@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<title>Gestión de Materias</title>
+
+<link rel="stylesheet" href="./css/Subjects.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Gestión de Materias</h1>
+
+<div class="card">
+
+<h2>Formulario de materia</h2>
+
+<input type="hidden" id="subject_id">
+
+<input id="name" placeholder="Nombre materia">
+<input type="number" id="credits" placeholder="Créditos">
+<input type="number" id="teacher_id" placeholder="ID Programa">
+
+<br><br>
+
+<button onclick="saveSubject()">Guardar</button>
+<button onclick="clearForm()">Limpiar</button>
+
+</div>
+
+<div class="table-card">
+
+<subjects-table></subjects-table>
+
+</div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+<script src="./components/subjects_table.js"></script>
+<script src="./js/Subjects.js"></script>
+
+</body>
+</html>

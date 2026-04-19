@@ -1,0 +1,164 @@
+/* RESET */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: "Segoe UI", sans-serif;
+}
+
+/* FONDO */
+
+body{
+
+height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+background:linear-gradient(135deg,#2b6cb0,#1e3c72);
+
+}
+
+/* CONTENEDOR */
+
+.login-container{
+
+width:100%;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+}
+
+/* TARJETA */
+
+.login-card{
+
+background:#eef1f6;
+
+padding:40px;
+
+border-radius:25px;
+
+width:380px;
+
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+
+}
+
+/* TITULO */
+
+.login-card h1{
+
+color:#1e3c72;
+
+font-size:34px;
+
+margin-bottom:30px;
+
+}
+
+/* LABEL */
+
+label{
+
+display:block;
+
+margin-top:10px;
+
+margin-bottom:5px;
+
+font-weight:600;
+
+color:#1e3c72;
+
+}
+
+/* INPUT */
+
+input{
+
+width:100%;
+
+padding:14px;
+
+border-radius:12px;
+
+border:1px solid #ccc;
+
+margin-bottom:15px;
+
+font-size:14px;
+
+}
+
+/* BOTON */
+
+button{
+
+width:100%;
+
+padding:15px;
+
+border:none;
+
+border-radius:12px;
+
+background:#2b6cb0;
+
+color:white;
+
+font-size:18px;
+
+cursor:pointer;
+
+margin-top:10px;
+
+}
+
+/* HOVER */
+
+button:hover{
+
+background:#1e4e8c;
+
+}
+
+/* TEXTO REGISTRO */
+
+.register{
+
+text-align:center;
+
+margin-top:20px;
+
+color:#2b6cb0;
+
+}
+
+.register span{
+
+font-weight:bold;
+
+cursor:pointer;
+
+}
+
+/* MENSAJE */
+
+#mensaje{
+
+margin-top:10px;
+
+color:red;
+
+text-align:center;
+
+}

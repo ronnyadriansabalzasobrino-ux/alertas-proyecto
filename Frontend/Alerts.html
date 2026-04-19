@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<title>Gestión de Alertas</title>
+
+<link rel="stylesheet" href="./css/Alerts.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Gestión de Alertas</h1>
+
+<div class="card">
+
+<h2>Formulario de alerta</h2>
+<input type="hidden" id="alert_id">
+<input id="id_student">
+<input id="tipo_alert">
+<input id="description">
+<input id="generation_date" type="date">
+<input id="risk_level">
+<input id="state">
+<input id="id_period">
+
+<br><br>
+
+<button onclick="saveAlert()">Guardar</button>
+<button onclick="clearForm()">Limpiar</button>
+
+</div>
+
+<div class="table-card">
+
+<alerts-table></alerts-table>
+
+</div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+<script src="./components/alerts_table.js"></script>
+<script src="./js/Alerts.js"></script>
+
+</body>
+</html>
