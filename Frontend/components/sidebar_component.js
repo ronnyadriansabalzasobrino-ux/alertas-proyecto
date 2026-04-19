@@ -17,7 +17,7 @@ this.innerHTML = `
 
 <li onclick="goAlerts()">⚠️ Alertas</li>
 
-<li onclick="logout()">🚪 Cerrar sesión</li>
+<button onclick="logout()">🚪 Cerrar sesión</button>
 
 </ul>
 
